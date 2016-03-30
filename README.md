@@ -11,7 +11,7 @@
  <video width="480" height="640" controls>
   <source src="www/videos/screenrecord.mp4" type="video/mp4">
   <source src="www/videos/screenrecord.ogg" type="video/ogg">
-  Your browser does not support the video tag.
+  <a href="www/videos/screenrecord.mp4">click here to get the video</a>
 </video> 
 
 ## Task 1: How to check the funtinality of data cache.
