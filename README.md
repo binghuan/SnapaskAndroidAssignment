@@ -31,6 +31,9 @@ Get into the folder "www", and host a local web server. <br/>
 Then, open the page "index.html" on device. <br/>
 <img src="images/Screen Shot 2016-03-30 at 14.46.06.png" width="auto" height="auto"><br/>
 
+<a href='intent://question/1qzf3#Intent;scheme=snapaskinterview;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;end' target="_blank">snapask­interview://question/1qzf3</a><br/>
+<a href='intent://user/mosv#Intent;scheme=snapaskinterview;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;end' target="_blank">snapask­interview://user/mosv</a>
+
 Or just use adb command to test. <br/>
 <p>
 adb shell am start<br/>
