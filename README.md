@@ -8,8 +8,8 @@
 
 
 ## Demo. 
-<iframe width="640" height="480" src="https://www.youtube.com/embed/qAy0zt2r7kU" frameborder="0" allowfullscreen></iframe>
-
+<iframe width="640" height="480" src="https://www.youtube.com/embed/qAy0zt2r7kU" frameborder="0" allowfullscreen></iframe><br/>
+<a href="https://youtu.be/qAy0zt2r7kU">Check it out on YouTube</a>
 
 ## Task 1: How to check the funtinality of data cache.
 <ul>
