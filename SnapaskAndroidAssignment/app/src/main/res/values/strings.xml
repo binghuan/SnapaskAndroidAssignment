@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Snapask Android Assignment</string>
+    <string name="question">Question</string>
+    <string name="userdata">UserData</string>
+    <string name="placeholder">---</string>
+    <string name="email">email</string>
+    <string name="phone">phone</string>
+    <string name="university">university</string>
+    <string name="subjects">subjects</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="education">Education</string>
+    <string name="answerer_profile_picture">Answerer Profile Picture</string>
+    <string name="questioner_profile_picture">Questioner Profile Picture</string>
+    <string name="attachment">Attachment</string>
+</resources>
