@@ -1,0 +1,22 @@
+{
+id: 723,
+gender: "male",
+name: {
+first: "adrian",
+last: "martinez"
+},
+email: "adrian.martinez@example.com",
+username: "greenbear131",
+registered: 1153910367,
+dob: 1290592394,
+school: "HKU",
+country_code: "852",
+phone: "12345678",
+profile_pic_url: "https://randomuser.me/api/portraits/men/5.jpg",
+role: {
+id: 3,
+name: "Tutor"
+},
+rating: 4.3,
+rating_total: 5
+}

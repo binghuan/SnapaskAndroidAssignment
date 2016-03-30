@@ -1,0 +1,43 @@
+{
+status: "success",
+data: {
+id: 1002,
+asked_by: {
+id: 182,
+email: "isobel.evans@example.com",
+username: "orangeladybug329",
+role: {
+id: 4,
+name: "Student"
+},
+profile_pic_url: "https://randomuser.me/api/portraits/women/87.jpg"
+},
+description: "Error = More Code ^ 2",
+status: "Finish",
+user_id: 182,
+answer_tutor_id: 183,
+answered_by: {
+id: 183,
+email: "manuela.velasco50@example.com",
+username: "heavybutterfly920",
+role: {
+id: 3,
+name: "Tutor"
+},
+profile_pic_url: "http://api.randomuser.me/portraits/women/39.jpg"
+},
+created_at: "2016-01-28 16:51:21 +0800",
+subject: {
+id: 12,
+abbr: "Geography",
+description: "Geography",
+region: {
+id: 1,
+name: "hk",
+full_name: "Hong Kong"
+}
+},
+picture_url: "http://image.slidesharecdn.com/cxcpastpapersforsocialstudies-140525101810-phpapp02/95/cxc-past-papers-for-social-studies-with-multiple-choice-questions-1-638.jpg",
+user_rating: 5
+}
+}
