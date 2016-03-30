@@ -1,12 +1,50 @@
 # SnapaskAndroidAssignment
 
-<img src="Icon.png" width="auto" height="320"><br/>
+<img src="Icon.png" width="auto" height="240"><br/>
+
 
 ## Design. 
 <img src="images/Slide1.jpg" width="auto" height="480"><br/>
 
-## Demo. 
 
+## Demo. 
+ <video width="480" height="640" controls>
+  <source src="www/videos/screenrecord.mp4" type="video/mp4">
+  <source src="www/videos/screenrecord.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video> 
+
+## Task 1: How to check the funtinality of data cache.
+<ul>
+<li>Launch app</li>
+<li>Press button "QUESTION"</li>
+<li>Check the responding time</li>
+<li>Back to the main page</li>
+<li>Press button "QUESTION"</li>
+<li>Check the responding time</li>
+</ul>
+You will see the difference. 
+
+Or just use adb command to test. <br/>
+<p>
+adb shell am start<br/>
+        -W -a android.intent.action.VIEW<br/>
+        -d URI PACKAGE<br/>
+        </p>
+
+## Task 2: How to test app deep link
+Get into the folder "www", and host a local web server. <br/>
+Then, open the page "index.html" on device. <br/>
+<img src="images/Screen Shot 2016-03-30 at 14.46.06.png" width="auto" height="auto"><br/>
+
+
+## Task 3: How to run unit test.
+In project folder, execute following command
+<p style="color=blue;">./gradlew test</p>
+
+### Then, you will see the result.
+
+<img src="images/Screen Shot 2016-03-30 at 14.44.16.png" width="auto" height="auto">
 
 
 ## Reference:

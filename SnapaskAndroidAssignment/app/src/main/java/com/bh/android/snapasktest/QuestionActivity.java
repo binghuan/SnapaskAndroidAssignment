@@ -77,8 +77,8 @@ public class QuestionActivity extends AppCompatActivity {
         if (mDataStore.getQuestionData() != null) {
             QuestionData questionData = DataParser.parserQuestionData(mDataStore.getQuestionData());
             fillQuestionData(questionData);
-            mViewQuestionerAvatar.setImageBitmap(MyUtils.stringToBitmap(mDataStore.getAnswererProfilePic()));
-            mViewAnswererAvatar.setImageBitmap(MyUtils.stringToBitmap(mDataStore.getQuestionerProfilePic()));
+            mViewQuestionerAvatar.setImageBitmap(MyUtils.stringToBitmap(mDataStore.getQuestionerProfilePic()));
+            mViewAnswererAvatar.setImageBitmap(MyUtils.stringToBitmap(mDataStore.getAnswererProfilePic()));
             mViewQuestionAttachment.setImageBitmap(MyUtils.stringToBitmap(mDataStore.getQuestionerAttachment()));
 
         } else {
