@@ -25,18 +25,18 @@
 </ul>
 You will see the difference. 
 
-Or just use adb command to test. <br/>
-<p>
-adb shell am start<br/>
-        -W -a android.intent.action.VIEW<br/>
-        -d URI PACKAGE<br/>
-        </p>
 
 ## Task 2: How to test app deep link
 Get into the folder "www", and host a local web server. <br/>
 Then, open the page "index.html" on device. <br/>
 <img src="images/Screen Shot 2016-03-30 at 14.46.06.png" width="auto" height="auto"><br/>
 
+Or just use adb command to test. <br/>
+<p>
+adb shell am start<br/>
+        -W -a android.intent.action.VIEW<br/>
+        -d URI PACKAGE<br/>
+        </p>
 
 ## Task 3: How to run unit test.
 In project folder, execute following command
