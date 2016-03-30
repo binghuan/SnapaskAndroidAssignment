@@ -8,11 +8,8 @@
 
 
 ## Demo. 
- <video width="480" height="640" controls>
-  <source src="www/videos/screenrecord.mp4" type="video/mp4">
-  <source src="www/videos/screenrecord.ogg" type="video/ogg">
-  <a href="www/videos/screenrecord.mp4">click here to get the video</a>
-</video> 
+<iframe width="640" height="480" src="https://www.youtube.com/embed/qAy0zt2r7kU" frameborder="0" allowfullscreen></iframe>
+
 
 ## Task 1: How to check the funtinality of data cache.
 <ul>
